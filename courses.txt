@@ -1,0 +1,108 @@
+Engineering|B.Tech. CSE (Computer Science & Engg.)|4|140000
+Engineering|B.Tech. CSE (Cloud Technology & Information Security)|4|150000
+Engineering|B.Tech-M.Tech Dual Degree (CSE)|5|140000
+Engineering|B.Tech. ECE (Electronics & Comm. Engg.)|4|125000
+Engineering|B.Tech. Electrical Engg.|4|125000
+Engineering|B.Tech. Mechanical Engg.|4|140000
+Engineering|B.Tech. Civil Engg.|4|140000
+Engineering|B.Tech. Biotechnology|4|125000
+Engineering|B.Tech. Food Technology|4|85000
+Engineering|B.Tech. Biomedical Engg.|4|100000
+Engineering|B.Tech. Civil Engg. Lateral Entry (Evening)|3|125000
+Engineering|B.Tech. Mechanical Engg. Lateral Entry (Evening)|3|125000
+Engineering|B.Tech. Electrical Engg. Lateral Entry (Evening)|3|125000
+Engineering|B.Tech. Lateral Entry (Diploma Holders)|3|120000
+Engineering|B.Tech. Lateral Entry (B.Sc. Graduates)|3|120000
+Engineering|M.Tech. Electronics Circuit & Systems|2/3|80000;50000
+Engineering|M.Tech. Instrumentation & Control (Evening)|3|50000
+Engineering|M.Tech. Power Systems & Drives (Evening)|3|50000
+Engineering|M.Tech. Production & Industrial Engg.|2/3|80000;50000
+Engineering|M.Tech. Machine Design (Evening)|3|50000
+Engineering|M.Tech. Biotechnology|2/3|80000;50000
+Engineering|M.Tech. Bioinformatics|2/3|80000;50000
+Engineering|M.Tech. Structural Engg.|2/3|80000;50000
+Engineering|M.Tech. Environmental Engg.|2/3|80000;50000
+Engineering|M.Tech. CSE (Computer Science & Engg.)|2/3|80000;50000
+Engineering|M.Tech. Construction Technology & Management|2/3|80000;50000
+Engineering|M.Tech. Renewable Energy|2|60000
+Agriculture|B.Tech. Agricultural Engg.|4|80000
+Agriculture|B.Sc. (Hons.) Agriculture|4|40000
+Agriculture|B.Sc. (Hons.) Horticulture|4|40000
+Agriculture|B.Sc. (Hons.) Forestry|4|40000
+Agriculture|B.Sc. (Hons.) Home Science|4|40000
+Agriculture|M.B.A. Agribusiness Management|2|50000
+Science|B.Sc. (Hons.) Biotechnology|3|60000
+Science|B.Sc. (Hons.) Industrial Chemistry|3|30000
+Science|B.Sc. (Physics, Maths, Electronics)|3|30000
+Science|B.Sc. (Physics, Maths, Computer Science)|3|30000
+Science|B.Sc. (Life Sciences)|3|30000
+Science|B.Sc. (Environmental Science)|3|30000
+Science|M.Sc. Biotechnology|2|50000
+Science|M.Sc. Microbiology|2|40000
+Science|M.Sc. Biochemistry|2|40000
+Science|M.Sc. Bioinformatics|2|40000
+Science|M.Sc. Environmental Science|2|40000
+Science|M.Sc. Industrial Chemistry|2|50000
+Science|M.Sc. Physics (Electronics)|2|40000
+Science|M.Sc. Mathematics|2|40000
+Science|PG Diploma in Industrial Safety Health & Environment (PGDISHE)|1|35000
+Architecture|B.Arch. (Architecture)|5|120000
+Architecture|M.Arch. (Full Time / Part Time)|2/3|80000;70000
+Architecture|B.Plan. (Planning)|4|100000
+Pharmacy|D.Pharm.|2|60000
+Pharmacy|B.Pharm.|4|120000
+Pharmacy|Pharm.D.|5|120000
+Pharmacy|M.Pharm.|2|110000
+Pharmacy|B.Pharm. Lateral Entry|3|100000
+Computer Application|B.C.A.|3|60000
+Computer Application|B.Voc.|3|50000
+Computer Application|M.C.A.|3|70000
+Computer Application|M.C.A. Lateral Entry|2|100000
+Commerce & Management|B.B.A.|3|70000
+Commerce & Management|B.B.A. (Financial Services)|3|90000
+Commerce & Management|M.B.A.|2|125000
+Commerce & Management|B.Com. (Hons.)|3|40000
+Commerce & Management|M.Com.|2|50000
+Medical Sciences|M.B.B.S.|4.5|1500000|x
+Medical Sciences|M.D.|3|2000000|x
+Medical Sciences|M.S.|3|1900000|x
+Applied Health Sciences|B.P.Th. (Physiotherapy)|4|80000
+Applied Health Sciences|B.P.Th. Lateral Entry|3|70000
+Applied Health Sciences|BMLT|3|75000
+Applied Health Sciences|BRIT|3|75000
+Applied Health Sciences|M.P.Th. (Physiotherapy)|2|80000
+Applied Health Sciences|M.Sc. Medical Anatomy|2/3|70000
+Applied Health Sciences|M.Sc. Medical Physiology|2/3|70000
+Applied Health Sciences|M.Sc. Medical Biochemistry|2/3|70000
+Applied Health Sciences|M.Sc. Medical Microbiology|2/3|70000
+Applied Health Sciences|Diploma in Operation Theatre Technician|2|50000
+Applied Health Sciences|Diploma in CT Scan Technician|2|50000
+Applied Health Sciences|Diploma in Optometry|2|50000
+Nursing|B.Sc. Nursing (Basic)|4|105000
+Nursing|GNM (General Nursing & Midwifery)|3|70000
+Education|D.El.Ed.|2|52000
+Education|B.Ed.|2|75000
+Education|M.Ed.|2|60000
+Library Science|M.L.I.Sc.|1|30000
+Humanities|M.A. English|2|30000
+Humanities|M.S.W. (Master of Social Work)|2|40000
+Humanities|Certificate of Proficiency in Arabic / French / German / English / Urdu|1|6000
+Humanities|Diploma in Arabic|1|10000
+Humanities|Diploma in French|1|10000
+Humanities|Diploma in German|1|10000
+Polytechnic|Diploma in Chemical Engg.|3|40000
+Polytechnic|Diploma in CSE (Computer Science & Engg.)|3|50000
+Polytechnic|Diploma in Civil Engg.|3|50000
+Polytechnic|Diploma in Electrical Engg.|3|50000
+Polytechnic|Diploma in ECE (Electronics Engg.)|3|40000
+Polytechnic|Diploma in Mechanical Engg.|3|50000
+Polytechnic|Diploma in Mechanical Engg. (Automobile)|3|45000
+Polytechnic|Diploma in Civil (Construction Management & Safety) Engg.|3|50000
+Polytechnic|Diploma in Architecture Engg.|3|45000
+Polytechnic|Diploma in Civil Engg. (Evening)|3|40000
+Polytechnic|Diploma in Electrical Engg. (Evening)|3|40000
+Polytechnic|Diploma in Mechanical (Production) Engg. (Evening)|3|40000
+Law|BBA-LL.B|5|65000
+Law|BA-LL.B|5|85000
+Law|B.Com-LL.B|5|85000
+Law|LL.B|3|55000
