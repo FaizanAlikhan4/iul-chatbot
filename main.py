@@ -138,15 +138,36 @@ async def chat(body: ChatIn, request: Request):
                     {"role": "user" if m["role"] == "user" else "model", "parts": [{"text": m["content"]}]}
                     for m in msgs
                 ],
-                "generationConfig": {"maxOutputTokens": 800, "temperature": 0.3},
             }
-            async with httpx.AsyncClient(timeout=40) as h:
-                r = await h.post(url, json=payload, headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
-            if r.status_code >= 400:
-                log.error("Gemini error %s: %s", r.status_code, r.text[:500])
+            # Try low "thinking" first (much faster); fall back if the model rejects the setting.
+            attempts = [{"thinkingLevel": "low"}, {"thinkingBudget": 0}, None]
+            data = None
+            async with httpx.AsyncClient(timeout=httpx.Timeout(50.0, connect=15.0)) as h:
+                for think in attempts:
+                    gen = {"maxOutputTokens": 2048, "temperature": 0.3}
+                    if think:
+                        gen["thinkingConfig"] = think
+                    try:
+                        r = await h.post(
+                            url,
+                            json={**payload, "generationConfig": gen},
+                            headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]},
+                        )
+                    except httpx.TimeoutException:
+                        log.error("Gemini timeout (thinking=%s)", think)
+                        continue
+                    if r.status_code == 400:
+                        log.warning("Gemini 400 (thinking=%s): %s", think, r.text[:300])
+                        continue
+                    if r.status_code >= 400:
+                        log.error("Gemini error %s: %s", r.status_code, r.text[:500])
+                        return fallback
+                    data = r.json()
+                    break
+            if not data:
                 return fallback
-            parts = r.json()["candidates"][0]["content"]["parts"]
-            return {"reply": "".join(p.get("text", "") for p in parts)}
+            parts = data["candidates"][0]["content"]["parts"]
+            return {"reply": "".join(p.get("text", "") for p in parts if not p.get("thought"))}
         resp = await client.messages.create(
             model=MODEL,
             max_tokens=600,
