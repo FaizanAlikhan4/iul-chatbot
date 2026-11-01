@@ -17,9 +17,13 @@ from pydantic import BaseModel, Field
 
 log = logging.getLogger("uvicorn.error")
 BASE = Path(__file__).parent
-# PROVIDER: "gemini" (needs GEMINI_API_KEY) or "anthropic" (needs ANTHROPIC_API_KEY)
-PROVIDER = os.getenv("PROVIDER", "gemini" if os.getenv("GEMINI_API_KEY") else "anthropic")
-MODEL = os.getenv("MODEL", "gemini-2.5-flash" if PROVIDER == "gemini" else "claude-haiku-5-5")
+# PROVIDER: "groq" (GROQ_API_KEY), "gemini" (GEMINI_API_KEY) or "anthropic" (ANTHROPIC_API_KEY)
+PROVIDER = os.getenv(
+    "PROVIDER",
+    "groq" if os.getenv("GROQ_API_KEY") else "gemini" if os.getenv("GEMINI_API_KEY") else "anthropic",
+)
+DEFAULT_MODELS = {"groq": "llama-3.3-70b-versatile", "gemini": "gemini-3.8-flash", "anthropic": "claude-haiku-5-5"}
+MODEL = os.getenv("MODEL", DEFAULT_MODELS[PROVIDER])
 ALLOWED_ORIGINS = [o.strip() for o in os.getenv("ALLOWED_ORIGINS", "*").split(",")]
 RATE_LIMIT = int(os.getenv("RATE_LIMIT_PER_MIN", "15"))
 
@@ -130,6 +134,22 @@ async def chat(body: ChatIn, request: Request):
         raise HTTPException(400, "Last message must be from the user")
     fallback = {"reply": "Abhi kuch technical dikkat hai. Kripya call karein: 93351 77775"}
     try:
+        if PROVIDER == "groq":
+            async with httpx.AsyncClient(timeout=httpx.Timeout(60.0, connect=15.0)) as h:
+                r = await h.post(
+                    "https://api.groq.com/openai/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {os.environ['GROQ_API_KEY']}"},
+                    json={
+                        "model": MODEL,
+                        "messages": [{"role": "system", "content": SYSTEM_PROMPT}] + msgs,
+                        "max_tokens": 800,
+                        "temperature": 0.3,
+                    },
+                )
+            if r.status_code >= 400:
+                log.error("Groq error %s: %s", r.status_code, r.text[:500])
+                return fallback
+            return {"reply": r.json()["choices"][0]["message"]["content"]}
         if PROVIDER == "gemini":
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
             payload = {
