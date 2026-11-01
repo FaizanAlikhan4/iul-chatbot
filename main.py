@@ -3,6 +3,7 @@
 Run:  uvicorn main:app --reload
 Needs GEMINI_API_KEY (Gemini) or ANTHROPIC_API_KEY (Claude), see .env.example.
 """
+import logging
 import os
 import time
 from collections import defaultdict, deque
@@ -14,6 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
+log = logging.getLogger("uvicorn.error")
 BASE = Path(__file__).parent
 # PROVIDER: "gemini" (needs GEMINI_API_KEY) or "anthropic" (needs ANTHROPIC_API_KEY)
 PROVIDER = os.getenv("PROVIDER", "gemini" if os.getenv("GEMINI_API_KEY") else "anthropic")
@@ -140,7 +142,9 @@ async def chat(body: ChatIn, request: Request):
             }
             async with httpx.AsyncClient(timeout=40) as h:
                 r = await h.post(url, json=payload, headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"]})
-            r.raise_for_status()
+            if r.status_code >= 400:
+                log.error("Gemini error %s: %s", r.status_code, r.text[:500])
+                return fallback
             parts = r.json()["candidates"][0]["content"]["parts"]
             return {"reply": "".join(p.get("text", "") for p in parts)}
         resp = await client.messages.create(
@@ -151,6 +155,7 @@ async def chat(body: ChatIn, request: Request):
         )
         return {"reply": "".join(b.text for b in resp.content if b.type == "text")}
     except Exception:
+        log.exception("Chat failed (provider=%s, model=%s)", PROVIDER, MODEL)
         return fallback
 
 
