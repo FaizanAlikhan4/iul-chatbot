@@ -57,6 +57,23 @@
     log.scrollTop = log.scrollHeight;
     return d;
   }
+  function typeOut(el, text) {
+    return new Promise(function (done) {
+      var parts = text.split(/(\s+)/), i = 0, shown = "";
+      var words = parts.length / 2;
+      var delay = Math.max(15, Math.min(45, 4000 / words));
+      (function step() {
+        if (i >= parts.length) return done();
+        shown += parts[i++];
+        if (i < parts.length) shown += parts[i++];
+        var partial = shown;
+        if ((partial.match(/\*\*/g) || []).length % 2) partial += "**";
+        el.innerHTML = fmt(partial);
+        log.scrollTop = log.scrollHeight;
+        setTimeout(step, delay);
+      })();
+    });
+  }
   async function ask() {
     var text = input.value.trim();
     if (!text) return;
@@ -65,14 +82,24 @@
     history.push({ role: "user", content: text });
     var wait = add("iul-bot", "...");
     try {
-      var r = await fetch(API + "/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: history.slice(-10) }),
-      });
+      var r;
+      for (var i = 0; i < 3; i++) {
+        try {
+          r = await fetch(API + "/chat", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ messages: history.slice(-10) }),
+          });
+          if (r.status < 502) break;
+        } catch (err) {
+          if (i === 2) throw err;
+        }
+        wait.textContent = "Server shuru ho raha hai, kripya intezaar karein...";
+        await new Promise(function (ok) { setTimeout(ok, 6000); });
+      }
       var j = await r.json();
       var reply = r.ok ? j.reply : (j.detail || "Kuch galat ho gaya. Call karein: 93351 77775");
-      wait.innerHTML = fmt(reply);
+      if (r.ok) { await typeOut(wait, reply); } else { wait.innerHTML = fmt(reply); }
       if (r.ok) history.push({ role: "assistant", content: reply });
       else history.pop();
     } catch (e) {
