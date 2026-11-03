@@ -75,7 +75,7 @@ SYSTEM_HEAD = """You are the admission helper chatbot of Integral University, Lu
 
 RULES
 1. Answer ONLY from the DATA below. Never invent or guess fees, dates, seats, eligibility, packages or facilities. If something is not in the DATA, say you don't have that information and give the admission office phone number 93351 77775.
-2. Reply in the language the user writes in: Hindi (Devanagari), English, or Hinglish (Hindi in Roman letters). Match their style.
+2. Reply in the language the user writes in. If the user writes Hinglish (Hindi words in English letters, e.g. "fees kitni hai"), you MUST reply in Hinglish (Hindi in English letters), NOT in plain English. Hindi (Devanagari) gets Devanagari; plain English gets English.
 3. Keep answers short and easy to read on a phone: usually 2 to 6 lines. Use short bullet lists for fees, documents or comparisons. Use **bold** only for key numbers or names.
 4. Fees: use the numbers in the course table exactly as given. Do not recalculate course totals yourself; use the "total" shown. You may add numbers together (e.g. tuition + hostel) or apply a scholarship percentage to the tuition fee when the user asks, and show the working briefly. Scholarship waivers apply to tuition fee only. Say that scholarships carry terms and conditions.
 5. If the user's course name is unclear or matches several courses, ask one short question or list the matching courses.
@@ -89,6 +89,24 @@ FEE_ROWS = build_fee_rows()
 INFO = (BASE / "info.md").read_text(encoding="utf-8")
 COURSE_NAMES = "; ".join(t.split(" | ")[0][2:] for _, t in FEE_ROWS)
 STOP = set("fee fees kitni kitna kitne ki ka ke hai hain batao bataiye course courses me mein in of for the what is per year saal total kya aur ya mujhe chahiye ko se ek hota hoti hoga hogi lagegi lagega about tell".split())
+
+
+BROAD = re.compile(r"\b(all|sabhi|sabi|saare|sare|poori|puri|complete|list|structure|har|every|sab)\b")
+
+
+def build_compact() -> str:
+    out = []
+    for row in (BASE / "courses.txt").read_text(encoding="utf-8").splitlines():
+        if not row.strip():
+            continue
+        parts = row.split("|")
+        faculty, name, dur = parts[0], parts[1], parts[2]
+        fees = " / ".join(inr(int(x)) for x in parts[3].split(";"))
+        out.append(f"- [{faculty}] {name} ({dur} yr): {fees}")
+    return "\n".join(out)
+
+
+COMPACT = build_compact()
 
 
 def _norm(t: str) -> str:
@@ -118,7 +136,16 @@ def make_system(user_texts: list[str]) -> str:
         rows = pick_rows(t)
         if rows:
             break
-    fees = "\n".join(rows) if rows else "(no specific course matched yet: ask the user which course they mean, using the course list)"
+    if rows:
+        fees = "\n".join(rows)
+    elif BROAD.search(" ".join(user_texts[-2:]).lower()):
+        fees = (
+            "The user wants fees for many/all courses. Give a clear overview grouped by faculty, one short line per course "
+            "(course name, duration, 1st year fee). Mention that from the 2nd year the fee is Rs 10,000 less (except M.B.B.S., M.D., M.S., 1-year courses). "
+            "Offer to give full details (installments, later years, total) for any one course.\n" + COMPACT
+        )
+    else:
+        fees = "(no specific course matched: do NOT say you lack the information. Ask which course or faculty they mean, listing the faculty names from the course list)"
     return (
         SYSTEM_HEAD
         + "\nDATA: ALL COURSE NAMES\n" + COURSE_NAMES
@@ -181,7 +208,7 @@ async def chat(body: ChatIn, request: Request):
                     json={
                         "model": MODEL,
                         "messages": [{"role": "system", "content": system_prompt}] + msgs,
-                        "max_tokens": 800,
+                        "max_tokens": 3000,
                         "temperature": 0.3,
                     },
                 )
@@ -231,7 +258,7 @@ async def chat(body: ChatIn, request: Request):
             return {"reply": "".join(p.get("text", "") for p in parts if not p.get("thought"))}
         resp = await client.messages.create(
             model=MODEL,
-            max_tokens=600,
+            max_tokens=1500,
             system=system_prompt,
             messages=msgs,
         )
