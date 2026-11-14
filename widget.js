@@ -44,7 +44,8 @@
   function fmt(t) {
     t = t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
     t = t.replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
-    t = t.replace(/^[-*] /gm, "• ");
+    t = t.replace(/^#+\s*/gm, "");
+    t = t.replace(/^\s*[-*] /gm, "• ");
     t = t.replace(/([\w.+-]+@[\w-]+\.[\w.]+)/g, '<a href="mailto:$1">$1</a>');
     t = t.replace(/\b(93351 ?77775)\b/g, '<a href="tel:+919335177775">$1</a>');
     return t.replace(/\n/g, "<br>");
