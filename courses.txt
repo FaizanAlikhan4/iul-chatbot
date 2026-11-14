@@ -1,108 +1,407 @@
-Engineering|B.Tech. CSE (Computer Science & Engg.)|4|140000
-Engineering|B.Tech. CSE (Cloud Technology & Information Security)|4|150000
-Engineering|B.Tech-M.Tech Dual Degree (CSE)|5|140000
-Engineering|B.Tech. ECE (Electronics & Comm. Engg.)|4|125000
-Engineering|B.Tech. Electrical Engg.|4|125000
-Engineering|B.Tech. Mechanical Engg.|4|140000
-Engineering|B.Tech. Civil Engg.|4|140000
-Engineering|B.Tech. Biotechnology|4|125000
-Engineering|B.Tech. Food Technology|4|85000
-Engineering|B.Tech. Biomedical Engg.|4|100000
-Engineering|B.Tech. Civil Engg. Lateral Entry (Evening)|3|125000
-Engineering|B.Tech. Mechanical Engg. Lateral Entry (Evening)|3|125000
-Engineering|B.Tech. Electrical Engg. Lateral Entry (Evening)|3|125000
-Engineering|B.Tech. Lateral Entry (Diploma Holders)|3|120000
-Engineering|B.Tech. Lateral Entry (B.Sc. Graduates)|3|120000
-Engineering|M.Tech. Electronics Circuit & Systems|2/3|80000;50000
-Engineering|M.Tech. Instrumentation & Control (Evening)|3|50000
-Engineering|M.Tech. Power Systems & Drives (Evening)|3|50000
-Engineering|M.Tech. Production & Industrial Engg.|2/3|80000;50000
-Engineering|M.Tech. Machine Design (Evening)|3|50000
-Engineering|M.Tech. Biotechnology|2/3|80000;50000
-Engineering|M.Tech. Bioinformatics|2/3|80000;50000
-Engineering|M.Tech. Structural Engg.|2/3|80000;50000
-Engineering|M.Tech. Environmental Engg.|2/3|80000;50000
-Engineering|M.Tech. CSE (Computer Science & Engg.)|2/3|80000;50000
-Engineering|M.Tech. Construction Technology & Management|2/3|80000;50000
-Engineering|M.Tech. Renewable Energy|2|60000
-Agriculture|B.Tech. Agricultural Engg.|4|80000
-Agriculture|B.Sc. (Hons.) Agriculture|4|40000
-Agriculture|B.Sc. (Hons.) Horticulture|4|40000
-Agriculture|B.Sc. (Hons.) Forestry|4|40000
-Agriculture|B.Sc. (Hons.) Home Science|4|40000
-Agriculture|M.B.A. Agribusiness Management|2|50000
-Science|B.Sc. (Hons.) Biotechnology|3|60000
-Science|B.Sc. (Hons.) Industrial Chemistry|3|30000
-Science|B.Sc. (Physics, Maths, Electronics)|3|30000
-Science|B.Sc. (Physics, Maths, Computer Science)|3|30000
-Science|B.Sc. (Life Sciences)|3|30000
-Science|B.Sc. (Environmental Science)|3|30000
-Science|M.Sc. Biotechnology|2|50000
-Science|M.Sc. Microbiology|2|40000
-Science|M.Sc. Biochemistry|2|40000
-Science|M.Sc. Bioinformatics|2|40000
-Science|M.Sc. Environmental Science|2|40000
-Science|M.Sc. Industrial Chemistry|2|50000
-Science|M.Sc. Physics (Electronics)|2|40000
-Science|M.Sc. Mathematics|2|40000
-Science|PG Diploma in Industrial Safety Health & Environment (PGDISHE)|1|35000
-Architecture|B.Arch. (Architecture)|5|120000
-Architecture|M.Arch. (Full Time / Part Time)|2/3|80000;70000
-Architecture|B.Plan. (Planning)|4|100000
-Pharmacy|D.Pharm.|2|60000
-Pharmacy|B.Pharm.|4|120000
-Pharmacy|Pharm.D.|5|120000
-Pharmacy|M.Pharm.|2|110000
-Pharmacy|B.Pharm. Lateral Entry|3|100000
-Computer Application|B.C.A.|3|60000
-Computer Application|B.Voc.|3|50000
-Computer Application|M.C.A.|3|70000
-Computer Application|M.C.A. Lateral Entry|2|100000
-Commerce & Management|B.B.A.|3|70000
-Commerce & Management|B.B.A. (Financial Services)|3|90000
-Commerce & Management|M.B.A.|2|125000
-Commerce & Management|B.Com. (Hons.)|3|40000
-Commerce & Management|M.Com.|2|50000
-Medical Sciences|M.B.B.S.|4.5|1500000|x
-Medical Sciences|M.D.|3|2000000|x
-Medical Sciences|M.S.|3|1900000|x
-Applied Health Sciences|B.P.Th. (Physiotherapy)|4|80000
-Applied Health Sciences|B.P.Th. Lateral Entry|3|70000
-Applied Health Sciences|BMLT|3|75000
-Applied Health Sciences|BRIT|3|75000
-Applied Health Sciences|M.P.Th. (Physiotherapy)|2|80000
-Applied Health Sciences|M.Sc. Medical Anatomy|2/3|70000
-Applied Health Sciences|M.Sc. Medical Physiology|2/3|70000
-Applied Health Sciences|M.Sc. Medical Biochemistry|2/3|70000
-Applied Health Sciences|M.Sc. Medical Microbiology|2/3|70000
-Applied Health Sciences|Diploma in Operation Theatre Technician|2|50000
-Applied Health Sciences|Diploma in CT Scan Technician|2|50000
-Applied Health Sciences|Diploma in Optometry|2|50000
-Nursing|B.Sc. Nursing (Basic)|4|105000
-Nursing|GNM (General Nursing & Midwifery)|3|70000
-Education|D.El.Ed.|2|52000
-Education|B.Ed.|2|75000
-Education|M.Ed.|2|60000
-Library Science|M.L.I.Sc.|1|30000
-Humanities|M.A. English|2|30000
-Humanities|M.S.W. (Master of Social Work)|2|40000
-Humanities|Certificate of Proficiency in Arabic / French / German / English / Urdu|1|6000
-Humanities|Diploma in Arabic|1|10000
-Humanities|Diploma in French|1|10000
-Humanities|Diploma in German|1|10000
-Polytechnic|Diploma in Chemical Engg.|3|40000
-Polytechnic|Diploma in CSE (Computer Science & Engg.)|3|50000
-Polytechnic|Diploma in Civil Engg.|3|50000
-Polytechnic|Diploma in Electrical Engg.|3|50000
-Polytechnic|Diploma in ECE (Electronics Engg.)|3|40000
-Polytechnic|Diploma in Mechanical Engg.|3|50000
-Polytechnic|Diploma in Mechanical Engg. (Automobile)|3|45000
-Polytechnic|Diploma in Civil (Construction Management & Safety) Engg.|3|50000
-Polytechnic|Diploma in Architecture Engg.|3|45000
-Polytechnic|Diploma in Civil Engg. (Evening)|3|40000
-Polytechnic|Diploma in Electrical Engg. (Evening)|3|40000
-Polytechnic|Diploma in Mechanical (Production) Engg. (Evening)|3|40000
-Law|BBA-LL.B|5|65000
-Law|BA-LL.B|5|85000
-Law|B.Com-LL.B|5|85000
-Law|LL.B|3|55000
+Faculty of Engineering & Information Technology|PG|Bench Work CS|1 Year|42500|
+Faculty of Engineering & Information Technology|PG|M. Tech in Computer science and Engineering (Robotics and Artificial Intelligence)|3 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Computer Science & Engineering|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Computer Science & Engineering (Advanced Computing and Data Science)|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Computer Science & Engineering (Evening)|3 Years|55000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Robotics, Control and Intelligence|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Production & Industrial Engineering|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Production & Industrial Engineering (Evening)|3 Years|55000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Construction Technology & Management|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Construction Technology & Management (Evening)|3 Years|55000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Environmental Engineering|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Environmental Engineering (Evening)|3 Years|55000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Geotechnical Engineering|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Geotechnical Engineering (Evening)|3 Years|55000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Hydraulics & Water Resources Engineering|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Hydraulics & Water Resources Engineering (Evening)|3 Years|55000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering : Structural Engineering|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology - Civil Engineering :Structural Engineering (Evening)|3 Years|55000|
+Faculty of Engineering & Information Technology|PG|Master of Computer Application|2 Years|105000|
+Faculty of Engineering & Information Technology|PG|Master of Computer Application (Evening)|3 Years|75000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Biochemical Engineering (Evening)|3 Years|45000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Bioinformatics|2 Years|65000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Biomedical Engineering|2 Years|65000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Biotechnology|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Food Technology|2 Years|65000|
+Faculty of Engineering & Information Technology|PG|M. Tech. in Electrical Engineering (Evening Specialization in Power System & Drives / Artificial Intelligence & Control System / Renewable Energy & Electric Vehicle)|3 Years|55000|
+Faculty of Engineering & Information Technology|PG|M.Tech. in Electrical Engineering with specialization in Power System & Drives/ Artificial Intelligence & Control/ Renewable Energy & Electric Vehicles.|2 Years|85000|
+Faculty of Engineering & Information Technology|PG|Master of Technology in Electronics Engineering in Electronics Circuit & Systems|2 Years|85000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Computer Science & Engineering|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Computer Science & Engineering (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Mechanical Engineering|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Mechanical Engineering (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Civil Engineering|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Civil Engineering (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Computer Application|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Computer Application (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Biochemical Engineering|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Biochemical Engineering (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Bioinformatics|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Bioinformatics (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Biomedical Engineering|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Biomedical Engineering (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Biotechnology|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Biotechnology (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Food Technology|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Food Technology (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Processing and Food Engineering|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Processing and Food Engineering (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Electrical Engineering|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Electrical Engineering (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Electronics & Communication Engineering|6 Years|70000|
+Faculty of Engineering & Information Technology|PHD|Doctor of Philosophy in Electronics & Communication Engineering (Part Time)|6 Years|70000|
+Faculty of Engineering & Information Technology|UG|B.Tech – Computer Science & Engineering (Cyber Security & Artificial Intelligence) in collaboration with HCL Tech|4 Years|175000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Computer Science & Engineering|4 Years|160000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Computer Science & Engineering (Artificial Intelligence & Machine Learning in Association with HCLTech)|4 Years|175000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Computer Science & Engineering (Cloud Computing and Artificial Intelligence in Association with IBM)|4 Years|175000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Computer Science & Engineering (Cloud Computing and Artificial Intelligence in Association with IBM) (Lateral Entry)|3 Years|175000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Computer Science & Engineering (Data Science and Artificial Intelligence in Association with IBM)|4 Years|175000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Computer Science & Engineering (Data Science and Artificial Intelligence in Association with IBM) (Lateral Entry)|3 Years|175000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Computer Science & Engineering (Lateral Entry)|3 Years|160000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Mechanical Engineering|4 Years|145000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Mechanical Engineering (Electric Vehicle)|4 Years|105000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Mechanical Engineering (Lateral Entry Evening)|3 Years|130000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Mechanical Engineering (Lateral Entry)|3 Years|145000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Civil Engineering|4 Years|145000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Civil Engineering (Lateral Entry Evening)|3 Years|130000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Civil Engineering (Lateral Entry)|3 Years|145000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Computer Application|3 Years|85000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Biomedical Engineering|4 Years|105000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Biomedical Engineering (Lateral Entry)|3 Years|105000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Biotechnology|4 Years|130000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Biotechnology (Lateral Entry)|3 Years|130000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Food Technology|4 Years|90000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Food Technology (Lateral Entry)|3 Years|90000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Electrical & Computer Science Engineering (Lateral Entry)|3 Years|105000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Electrical Engineering|4 Years|130000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Electrical Engineering (Lateral Entry)|3 Years|130000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology- Electrical & Computer Science Engineering|4 Years|105000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology- Electrical Engineering (Lateral Entry Evening)|3 Years|130000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Electronics & Communication Engineering with specialization in Communication & Computer/ AI/ Communication/VLSI/Research.|4 Years|130000|
+Faculty of Engineering & Information Technology|UG|Bachelor of Technology - Electronics & Communication Engineering with specialization in Communication & Computer/ AI/ Communication/VLSI/Research. (Lateral Entry)|4 Years|130000|
+Faculty of Pharmacy|DIPLOMA|Diploma in Pharmacy|2 Years|95000|
+Faculty of Pharmacy|DIPLOMA|Diploma in Pharmacy-Phase III|2 Years|95000|
+Faculty of Pharmacy|DIPLOMA|Diploma in Pharmacy (SPS)|2 Years|95000|
+Faculty of Pharmacy|PG|Master of Pharmacy in Pharmaceutical Chemistry|2 Years|115000|
+Faculty of Pharmacy|PG|Master of Pharmacy in Pharmaceutics|2 Years|115000|
+Faculty of Pharmacy|PG|Master of Pharmacy in Pharmacology|2 Years|115000|
+Faculty of Pharmacy|PG|Master of Pharmacy in Pharmacy Practice|2 Years|115000|
+Faculty of Pharmacy|PG|Pharm. D.|6 Years|165000|
+Faculty of Pharmacy|PG|Pharm. D. (Post Baccalaureate)|3 Years|165000|
+Faculty of Pharmacy|PHD|Doctor of Philosophy in Pharmacy|6 Years|70000|
+Faculty of Pharmacy|PHD|Doctor of Philosophy in Pharmacy (Part Time)|6 Years|70000|
+Faculty of Pharmacy|UG|Bachelor of Pharmacy|4 Years|145000|
+Faculty of Pharmacy|UG|Bachelor of Pharmacy (Lateral Entry)|3 Years|145000|
+Faculty of Pharmacy|UG|Bachelor of Pharmacy (Phase-III)|4 Years|145000|
+Faculty of Architecture, Planning & Design|DIPLOMA|Diploma in Architecture|3 Years|50000|
+Faculty of Architecture, Planning & Design|DIPLOMA|Diploma in Architecture (Lateral Entry)|3 Years|50000|
+Faculty of Architecture, Planning & Design|PG|Master in Planning (Urban Planning)|2 Years|85000|
+Faculty of Architecture, Planning & Design|PG|Master of Architecture|2 Years|85000|
+Faculty of Architecture, Planning & Design|PG|Master of Architecture (Evening)|3 Years|75000|
+Faculty of Architecture, Planning & Design|PHD|Doctor of Philosophy in Architecture|6 Years|70000|
+Faculty of Architecture, Planning & Design|PHD|Doctor of Philosophy in Architecture (Part Time)|6 Years|70000|
+Faculty of Architecture, Planning & Design|UG|Bachelor of Architecture|5 Years|127000|
+Faculty of Architecture, Planning & Design|UG|Bachelor of Design (Fashion Design)|4 Years|85000|
+Faculty of Architecture, Planning & Design|UG|Bachelor of Design (Product & Interior Design)|4 Years|85000|
+Faculty of Architecture, Planning & Design|UG|Bachelor of Design in Communication Design (UI/UX)|4 Years|95000|
+Faculty of Science|CERTIFICATE|Certificate Program in Disaster Risk Reduction and Management (CPDRRM)|1 Year|40000|
+Faculty of Science|PG|M.Sc Biotechnology (Dual Degree) with TICT, Tashkent, Uzbekistan)|2 Years|95000|
+Faculty of Science|PG|Master of Science in Biochemistry|2 Years|45000|
+Faculty of Science|PG|Master of Science in Biotechnology|2 Years|55000|
+Faculty of Science|PG|Master of Science in Microbiology|2 Years|55000|
+Faculty of Science|PG|Master of Science in Physics|2 Years|45000|
+Faculty of Science|PG|Master of Science in Data Science|2 Years|45000|
+Faculty of Science|PG|Master of Science in Mathematics|2 Years|45000|
+Faculty of Science|PG|Master of Science in Statistics|2 Years|45000|
+Faculty of Science|PG|Master of Science in Chemistry|2 Years|45000|
+Faculty of Science|PG|Master of Science in Industrial Chemistry|2 Years|55000|
+Faculty of Science|PG|Master of Science in Environmental Science|2 Years|45000|
+Faculty of Science|PG DIPLOMA|Post Graduate Program in Disaster Risk Reduction and Management (PGDRRM)|1 Year|45000|
+Faculty of Science|PHD|Doctor of Philosophy in Biosciences|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Biosciences (Part Time)|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Physics|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Physics (Part Time)|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Mathematics|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Mathematics (Part Time)|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Statistics|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Statistics (Part Time)|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Chemistry|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Chemistry (Part Time)|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Environmental Science|6 Years|70000|
+Faculty of Science|PHD|Doctor of Philosophy in Environmental Science (Part Time)|6 Years|70000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Biochemistry|3 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Biotechnology|3 Years|90000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Botany with Chemistry/Zoology|3+1 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Life Sciences|3 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Zoology with Chemistry / Botany|3+1 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) - Physics|3 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Physics with Mathematics/ Electronics/Computer Science/Chemistry|3+1 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Mathematics with Physics/ Chemistry/ Statistics/ Computer Science|3+1 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Statistics with Mathematics/ Computer Science|3+1 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Chemistry|3 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Chemistry with Botany/Zoology/ Mathematics/ Physics|3+1 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Industrial Chemistry|3 Years|45000|
+Faculty of Science|UG|Bachelor of Science (Hons.) Environmental Science|3 Years|45000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma in CT Scan Technician (DCTST)|2 Years|60000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma in Emergency Trauma & Care Technician (DETCT)|2 Years|60000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma in Medical Lab Technician (DMLT)|2 Years|85000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma in MRI Technician (DMRIT)|2 Years|70000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma in Operation Theater Technician (DOTT)|2 Years|70000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma in Optometry Technician (DOPT)|2 Years|70000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma in Photography|1 Year|20000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma in X Ray Technician (DXRT)|2 Years|65000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma of Anaesthesia and Operation Theator Technology (D.AOTT)|2 Years|65000|
+Faculty of Medicine & Health Sciences|DIPLOMA|Diploma of Dialysis Technology (D.DT)|2 Years|60000|
+Faculty of Medicine & Health Sciences|PG|Matser of Physiotherapy (M.PT)|2 Years|125000|
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Anesthesiology|3 Years|2195000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Biochemistry|3 Years|280000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Community Medicine|3 Years|280000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Dermatology|3 Years|4195000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in General Medicine|3 Years|3995000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Microbiology|3 Years|280000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Pathology|3 Years|1200000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Pediatrics|3 Years|3895000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Psychiatry|3 Years|2595000|*
+Faculty of Medicine & Health Sciences|PG|Doctor of Medicine in Radio-diagnosis|3 Years|4195000|*
+Faculty of Medicine & Health Sciences|PG|Master of Surgery in General Surgery|3 Years|3495000|*
+Faculty of Medicine & Health Sciences|PG|Master of Surgery in Obstetrics & Gynecology|2 Years|3995000|*
+Faculty of Medicine & Health Sciences|PG|Master of Surgery in Ophthalmology|2 Years|3595000|*
+Faculty of Medicine & Health Sciences|PG|Master of Surgery in Orthopedics|3 Years|3995000|*
+Faculty of Medicine & Health Sciences|PG|Master of Surgery in Oto-rhino-laryngology|3 Years|2395000|*
+Faculty of Medicine & Health Sciences|PG|Master of Anaesthesia and Operation Theatre Technology (M.AOTT)|2 Years|90000|
+Faculty of Medicine & Health Sciences|PG|Master of Medical Laboratory Science (M.MLS)|2 Years|120000|
+Faculty of Medicine & Health Sciences|PG|Master of Medical Radiology and Imaging Technology (M.MRIT)|2 Years|120000|
+Faculty of Medicine & Health Sciences|PG|Master of Nutrition and Dietetics (M.ND)|2 Years|100000|
+Faculty of Medicine & Health Sciences|PG|Master of Optometry (M.OPTOM)|2 Years|100000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Forensic Science (MFS)|2 Years|90000|
+Faculty of Medicine & Health Sciences|PG|Master of Hospital Administration (MHA)|2 Years|75000|
+Faculty of Medicine & Health Sciences|PG|Master of Hospital Administration (MHA) Evening|2 Years|65000|
+Faculty of Medicine & Health Sciences|PG|Master of Public Health (MPH)|2 Years|75000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Clinical Psychology|2 Years|65000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Anatomy|3 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Anatomy (Lateral Entry)|2 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Biochemistry|3 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Biochemistry (Lateral Entry)|2 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Microbiology|3 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Microbiology (Lateral Entry)|2 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Pharmacology|3 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Pharmacology (Lateral Entry)|2 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Physiology|3 Years|95000|
+Faculty of Medicine & Health Sciences|PG|Master of Science in Medical Physiology (Lateral Entry)|2 Years|95000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Physiotherapy|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Physiotherapy (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Forensic Science|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Forensic Science (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Laboratory Sciences|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Laboratory Sciences (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Radiological Sciences|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Radiological Sciences (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Optometry|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Optometry (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Community Medicine|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Community Medicine (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Forensic Medicine|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Forensic Medicine (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Anatomy|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Anatomy (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Biochemistry|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Biochemistry (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Microbiology|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Microbiology (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Pharmacology|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Pharmacology (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Physiology|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Medical Physiology (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Obstetrics & Gynaecology|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Obstetrics & Gynaecology (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Ophthalmology|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Ophthalmology (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Pathology|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Pathology (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Radiology|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Radiology (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Surgery|6 Years|70000|
+Faculty of Medicine & Health Sciences|PHD|Doctor of Philosophy in Surgery (Part Time)|6 Years|70000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Occupational Therapy (B.OT)|4 Years|100000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Physiotherapy (B.PT)|5 Years|120000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Physiotherapy (B.PT) Lateral Entry|4 Years|115000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Medicine and Bachelor of Surgery (MBBS)|5 Years|1875000|*
+Faculty of Medicine & Health Sciences|UG|(Honours) Bachelor of Nutrition and Dietetics (B.ND)|4 Years|70000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Anaesthesia and Operation Theatre Technology (B.AOTT)|4 Years|90000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Dialysis Therapy Technology (B.DTT)|4 Years|85000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Medical Laboratory Science (B.MLS)|3 Years|110000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Medical Laboratory Science (B.MLS) Lateral Entry|2 Years|110000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Medical Radiology and Imaging Technology (B.MRIT)|4 Years|110000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Medical Radiology and Imaging Technology (B.MRIT) Lateral Entry|4 Years|110000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Optometry (B.OPTOM)|5 Years|100000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Optometry (B.OPTOM) Lateral Entry|4 Years|100000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Respiratory Technology (B.RT)|4 Years|65000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Science in Blood Banking Technology (BBT)|3 Years|85000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Science in Cardiovascular Technology (BCVT)|3 Years|75000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Science in Forensic Science (BFS)|3 Years|90000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Science in Medical Anatomy|3 Years|65000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Science in Medical Biochemistry|3 Years|65000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Science in Medical Microbiology|3 Years|65000|
+Faculty of Medicine & Health Sciences|UG|Bachelor of Science in Medical Physiology|3 Years|65000|
+Faculty of Education|DIPLOMA|Diploma in Early Childhood Care and Education|1 Year|15000|
+Faculty of Education|DIPLOMA|Diploma in Elementary Education|2 Years|55000|
+Faculty of Education|PG|Master of Education|2 Years|65000|
+Faculty of Education|PG DIPLOMA|Post Graduate Diploma in Educational Management and Administration|1 Year|15000|
+Faculty of Education|PG DIPLOMA|Post Graduate Diploma in Value Education|1 Year|15000|
+Faculty of Education|PHD|Doctor of Philosophy in Education|6 Years|70000|
+Faculty of Education|PHD|Doctor of Philosophy in Education (Part Time)|6 Years|70000|
+Faculty of Education|UG|Bachelor of Education|2 Years|65000|
+Faculty of Humanities & Social Sciences|CERTIFICATE|Certificate in Elementary Urdu Language|1 Year|12000|
+Faculty of Humanities & Social Sciences|CERTIFICATE|Certificate of Proficiency in Arabic Language|1 Year|12000|
+Faculty of Humanities & Social Sciences|CERTIFICATE|Certificate of Proficiency in English|1 Year|12000|
+Faculty of Humanities & Social Sciences|CERTIFICATE|Certificate of Proficiency in French Language|1 Year|12000|
+Faculty of Humanities & Social Sciences|CERTIFICATE|Certificate of Proficiency in German Language|1 Year|12000|
+Faculty of Humanities & Social Sciences|CERTIFICATE|Certificate of Proficiency in Hindi Language|1 Year|12000|
+Faculty of Humanities & Social Sciences|CERTIFICATE|Certificate of Proficiency in Urdu Language|1 Year|12000|
+Faculty of Humanities & Social Sciences|CERTIFICATE|Short Term Course in Arabic Language|3 Months|9000|
+Faculty of Humanities & Social Sciences|DIPLOMA|Diploma in Arabic Language|1 Year|15000|
+Faculty of Humanities & Social Sciences|DIPLOMA|Diploma in Urdu Language|1 Year|15000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in English|2 Years|35000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in Clinical Psychology|2 Years|55000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in Economics|2 Years|35000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in History|2 Years|35000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in International Relations|2 Years|35000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in Political Science|2 Years|35000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in Psychology|2 Years|35000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in Public Administration|2 Years|35000|
+Faculty of Humanities & Social Sciences|PG|Master of Arts in Sociology|2 Years|35000|
+Faculty of Humanities & Social Sciences|PG|Master of Social Work|2 Years|45000|
+Faculty of Humanities & Social Sciences|PG DIPLOMA|Post Graduate Diploma in Guidance and Counselling|1 Year|55000|
+Faculty of Humanities & Social Sciences|PG DIPLOMA|Post Graduate Diploma in Human Rights|1 Year|35000|
+Faculty of Humanities & Social Sciences|PG DIPLOMA|Post Graduate Diploma in Digital & Broadcast Media (PGDDBM)|1 Year|45000|
+Faculty of Humanities & Social Sciences|PG DIPLOMA|Post Graduate Diploma in Journalism & Mass Communication|1 Year|45000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in English|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in English (Part Time)|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in Economics|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in Economics (Part Time)|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in History|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in History (Part Time)|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in Political Science|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in Political Science (Part Time)|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in Psychology|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in Psychology (Part Time)|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in Sociology|6 Years|70000|
+Faculty of Humanities & Social Sciences|PHD|Doctor of Philosophy in Sociology (Part Time)|6 Years|70000|
+Faculty of Humanities & Social Sciences|UG|Bachelor of Arts (Hons.) in English|3+1 Years|35000|
+Faculty of Humanities & Social Sciences|UG|Bachelor of Arts (Hons.) in Economics|3+1 Years|35000|
+Faculty of Humanities & Social Sciences|UG|Bachelor of Arts (Hons.) in History|3+1 Years|35000|
+Faculty of Humanities & Social Sciences|UG|Bachelor of Arts (Hons.) in Liberal Arts|3+1 Years|35000|
+Faculty of Humanities & Social Sciences|UG|Bachelor of Arts (Hons.) in Political Science|3+1 Years|35000|
+Faculty of Humanities & Social Sciences|UG|Bachelor of Arts (Hons.) in Psychology|3+1 Years|35000|
+Faculty of Humanities & Social Sciences|UG|Bachelor of Arts (Hons.) in Sociology|3+1 Years|35000|
+Faculty of Humanities & Social Sciences|UG|B.A.(J&MC)|3 Years|85000|
+Faculty of Law|PG|Master of Law in Criminal Law and Forensic Science|2 Years|55000|
+Faculty of Law|PG|Master of Law in International Law|1 Year|75000|
+Faculty of Law|PHD|Doctor of Philosophy in Law|6 Years|70000|
+Faculty of Law|PHD|Doctor of Philosophy in Law (Part Time)|6 Years|70000|
+Faculty of Law|UG|Bachelor of Arts - Bachelor of Law|5 Years|90000|
+Faculty of Law|UG|Bachelor of Business Administration - Bachelor of Law|5 Years|70000|
+Faculty of Law|UG|Bachelor of Law|3 Years|60000|
+University Polytechnic|CERTIFICATE|Certificate Course in Carpentry|2 Months|10000|
+University Polytechnic|CERTIFICATE|Certificate Course in Electrician|2 Months|10000|
+University Polytechnic|CERTIFICATE|Certificate Course in Surveyor|2 Months|10000|
+University Polytechnic|CERTIFICATE|Certificate Course in Welding|2 Months|10000|
+University Polytechnic|CERTIFICATE|Certificate in Computer Course|6 Months|8500|
+University Polytechnic|CERTIFICATE|Certificate Program in Two-Wheeler Technician in association with India Yamaha Motors Pvt. Ltd|10 Months|12000|
+University Polytechnic|DIPLOMA|Diploma in Civil Engineering|3 Years|55000|
+University Polytechnic|DIPLOMA|Diploma in Civil Engineering (Lateral Entry)|2 Years|55000|
+University Polytechnic|DIPLOMA|Diploma in Communication & Computer Networking|3 Years|45000|
+University Polytechnic|DIPLOMA|Diploma in Computer Science & Engineering|3 Years|55000|
+University Polytechnic|DIPLOMA|Diploma in Computer Science & Engineering (Lateral Entry)|2 Years|55000|
+University Polytechnic|DIPLOMA|Diploma in Electrical Engineering|3 Years|55000|
+University Polytechnic|DIPLOMA|Diploma in Electrical Engineering (Lateral Entry)|2 Years|55000|
+University Polytechnic|DIPLOMA|Diploma in Electronics Engineering|3 Years|45000|
+University Polytechnic|DIPLOMA|Diploma in Electronics Engineering (Lateral Entry)|2 Years|45000|
+University Polytechnic|DIPLOMA|Diploma in Mechanical Engineering|3 Years|55000|
+University Polytechnic|DIPLOMA|Diploma in Mechanical Engineering (Lateral Entry)|2 Years|55000|
+University Polytechnic|DIPLOMA|Diploma in Mechanical Engineering in Automobile Engineering|3 Years|50000|
+University Polytechnic|DIPLOMA|Diploma in Mechanical Engineering in Automobile Engineering (Lateral Entry)|2 Years|50000|
+Faculty of Agricultural Science & Technology|PG|Master of Business Administration in Agribusiness Management|2 Years|65000|
+Faculty of Agricultural Science & Technology|PG|Master of Business Administration in Food and Agribusiness Management in Association with Imperial School of Agri Business|2 Years|85000|
+Faculty of Agricultural Science & Technology|PG|Master of Science in Agriculture - Agronomy|2 Years|55000|
+Faculty of Agricultural Science & Technology|PG|Master of Science in Agriculture - Genetics & Plant Breeding|2 Years|55000|
+Faculty of Agricultural Science & Technology|PG|Master of Science in Agriculture - Soil Science|2 Years|55000|
+Faculty of Agricultural Science & Technology|PG|Master of Science in Horticulture - Fruit Science|2 Years|55000|
+Faculty of Agricultural Science & Technology|PG|Master of Science in Horticulture - Vegetable Science|2 Years|55000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agribusiness Management|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agribusiness Management (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agricultural Biotechnology|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agricultural Biotechnology (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agricultural Economics|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agricultural Economics (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agricultural Extension|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agricultural Extension (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agricultural Microbiology|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agricultural Microbiology (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agrometeorology|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agrometeorology (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agronomy|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Agronomy (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Crop Physiology|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Crop Physiology (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Entomology|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Entomology (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Genetics & Plant Breeding|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Genetics & Plant Breeding (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Livestock and Poultry Management|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Livestock and Poultry Management (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Plant Pathology|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Plant Pathology (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Soil Science|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture - Soil Science (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture Engineering - Farm Machinery & Power Engineering|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture Engineering - Farm Machinery & Power Engineering (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture Engineering - Food and Process Engineering|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture Engineering - Food and Process Engineering (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture Engineering - Soil and Water Conservation Engineering|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Agriculture Engineering - Soil and Water Conservation Engineering (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Forestry - Silviculture and Agroforestry|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Forestry - Silviculture and Agroforestry (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Horticulture - Fruit Science|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Horticulture - Fruit Science (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Horticulture - Vegetable Science|6 Years|70000|
+Faculty of Agricultural Science & Technology|PHD|Doctor of Philosophy in Horticulture - Vegetable Science (Part Time)|6 Years|70000|
+Faculty of Agricultural Science & Technology|UG|Bachelor of Science (Hons.) Agriculture|4 Years|70000|
+Faculty of Agricultural Science & Technology|UG|Bachelor of Technology - Agricultural Engineering|4 Years|85000|
+Faculty of Commerce|PG|Master of Commerce|2 Years|55000|
+Faculty of Commerce|PG|Master of Commerce - Business Analytics|2 Years|55000|
+Faculty of Commerce|PHD|Doctor of Philosophy in Commerce|6 Years|70000|
+Faculty of Commerce|PHD|Doctor of Philosophy in Commerce (Part Time)|6 Years|70000|
+Faculty of Commerce|UG|Bachelor of Commerce (Hons.)|3 Years|55000|
+Faculty of Commerce|UG|Bachelor of Commerce (Hons.) FinTech in Association with ACCA and ISDC|3 Years|85000|
+Faculty of Commerce|UG|Bachelor of Commerce (Hons.) International Accounting & Finance|3 Years|85000|
+Faculty of Commerce|UG|Bachelor of Commerce - Retail Operations Management|3 Years|55000|
+Faculty of Commerce|UG|Bachelor of Hotel Management|4 Years|85000|
+Faculty of Nursing|DIPLOMA|Auxiliary Nurse & Midwife. / H.W. (Female)|2 Years|75000|
+Faculty of Nursing|DIPLOMA|Diploma in Nurse Practitioner in Critical Care|1 Year|65000|
+Faculty of Nursing|PB DIPLOMA|Post Basic Diploma in Cardiothoracic Nursing|1 Year|55000|
+Faculty of Nursing|PB DIPLOMA|Post Basic Diploma in Critical Care Nursing|1 Year|57500|
+Faculty of Nursing|PB DIPLOMA|Post Basic Diploma in Forensic Nursing|1 Year|55000|
+Faculty of Nursing|PB DIPLOMA|Post Basic Diploma in Operation Room Nursing|1 Year|55000|
+Faculty of Nursing|PB DIPLOMA|Post Basic Diploma in Ortho and Rehabilitation Nursing|1 Year|55000|
+Faculty of Nursing|PG|Master of Science in Nursing - Child Health Nursing|2 Years|135000|
+Faculty of Nursing|PG|Master of Science in Nursing - Community Health Nursing|2 Years|135000|
+Faculty of Nursing|PG|Master of Science in Nursing - Medical Surgical Nursing|2 Years|135000|
+Faculty of Nursing|PG|Master of Science in Nursing - Mental Health Nursing|2 Years|135000|
+Faculty of Nursing|PG|Master of Science in Nursing - Obstetrics Gynaecological Nursing|2 Years|135000|
+Faculty of Nursing|PHD|Doctor of Philosophy in Nursing|6 Years|70000|
+Faculty of Nursing|PHD|Doctor of Philosophy in Nursing (Part Time)|6 Years|70000|
+Faculty of Nursing|UG|Bachelor of Science in Nursing (B.Sc. Nursing)|4 Years|160000|
+Faculty of Nursing|UG|Post Basic - Bachelor of Science in Nursing|2 Years|95000|
+Integral Business School|PG|Master of Business Administration|2 Years|150000|
+Integral Business School|PG|Master of Business Administration (Health Care Management)|2 Years|150000|
+Integral Business School|PG|Master of Business Administration (Logistics & Supply Chain Management) in Association with College Dekho|2 Years|185000|
+Integral Business School|PG|Master of Business Administration (MBA) - M.Sc. in International Economics and Business - Szechenyi Istvan University, Hungary (Double Degree)|2 Years|130000|
+Integral Business School|PG|Master of Business Administration (Travel & Tourism)|2 Years|145000|
+Integral Business School|PHD|Doctor of Philosophy in Business Management|6 Years|70000|
+Integral Business School|PHD|Doctor of Philosophy in Business Management (Part Time)|6 Years|70000|
+Integral Business School|UG|Bachelor of Business Administration|3 Years|85000|
+Integral Business School|UG|Bachelor of Business Administration (Business Analytics) in Association with IBM|3 Years|105000|
+Integral Business School|UG|Bachelor of Business Administration (Financial Services)|3 Years|105000|
+Integral Business School|UG|Bachelor of Business Administration (Logistics & Supply Chain Management) in Association with College Dekho|3 Years|105000|
