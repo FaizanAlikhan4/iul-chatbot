@@ -18,15 +18,8 @@
 - Subject-wise requirements (e.g. PCM for B.Tech) are NOT in the data: refer to the admission office.
 
 ## Fee rules
-- "1st year fee" is the full first-year fee (both installments together).
-- From the 2nd year to the last year, the fee is ₹10,000 less than the 1st year fee, same amount every year. This does not apply to M.B.B.S., M.D., M.S., 1-year courses, and courses whose fee is ₹10,000 or less.
-- ₹5,000 rebate on one-time payment of the full fee.
+- The 1st year fee is the full fee payable in the first year. From the 2nd year to the last year the fee is ₹10,000 less than the 1st year fee (same amount every year). This does not apply to certificate courses, Ph.D. programs, and M.B.B.S./M.D./M.S., whose fee is the same every year.
 - Polytechnic = the Diploma courses of University Polytechnic.
-
-## Extra charges (in addition to tuition)
-- M.B.B.S.: hostel ₹3,00,000; security ₹2,00,000 (one time, refundable); miscellaneous ₹1,00,000 per year.
-- M.D. and M.S.: hostel (optional) ₹3,00,000; security ₹10,000 (one time); enrollment ₹10,000 (one time); miscellaneous ₹20,000 per year; examination ₹1,00,000 per year.
-- Non-clinical medical programs (M.Sc. Medical Anatomy, Physiology, Biochemistry, Microbiology): hostel (shared) ₹2,60,000; security ₹1,00,000 (refundable); miscellaneous ₹1,00,000 per year.
 
 ## Hostel fee (per year, other programs)
 - Non-AC room: Single ₹1,25,000; Double not available; Triple ₹1,00,000; security ₹5,000 (refundable).
